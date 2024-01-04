@@ -10,40 +10,36 @@ const PopularCourse = () => {
             {/* card section */}
             <div className="mt-5">
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
-                    <div className="card  bg-base-100 shadow-xl">
-                        <figure className="px-10 pt-10">
-                            <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-                        </figure>
-                        <div className="card-body items-center text-center">
-                            <h2 className="card-title text-[#0F4C81]"> Graphic Design</h2>
-
+                    <div className="mt-5">
+                        <div className="card card-compact bg-base-100 shadow-xl">
+                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure></div>
+                            <div className="card-body flex items-center">
+                                <h2 className="card-title text text-[#0F4C81]"> Graphic Design</h2>
+                            </div>
                         </div>
                     </div>
-                    <div className="card  bg-base-100 shadow-xl">
-                        <figure className="px-10 pt-10">
-                            <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-                        </figure>
-                        <div className="card-body items-center text-center">
-                            <h2 className="card-title text-[#0F4C81]"> Web Design</h2>
-
+                    <div className="mt-5">
+                        <div className="card card-compact bg-base-100 shadow-xl">
+                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure></div>
+                            <div className="card-body flex items-center">
+                                <h2 className="card-title text text-[#0F4C81]"> Graphic Design</h2>
+                            </div>
                         </div>
                     </div>
-                    <div className="card  bg-base-100 shadow-xl">
-                        <figure className="px-10 pt-10">
-                            <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-                        </figure>
-                        <div className="card-body items-center text-center">
-                            <h2 className="card-title text-[#0F4C81]"> Learn Quran</h2>
-
+                    <div className="mt-5">
+                        <div className="card card-compact bg-base-100 shadow-xl">
+                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure></div>
+                            <div className="card-body flex items-center">
+                                <h2 className="card-title text text-[#0F4C81]"> Graphic Design</h2>
+                            </div>
                         </div>
                     </div>
-                    <div className="card  bg-base-100 shadow-xl">
-                        <figure className="px-10 pt-10">
-                            <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-                        </figure>
-                        <div className="card-body items-center text-center">
-                            <h2 className="card-title text-[#0F4C81]"> Graphic Design</h2>
-
+                    <div className="mt-5">
+                        <div className="card card-compact bg-base-100 shadow-xl">
+                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure></div>
+                            <div className="card-body flex items-center">
+                                <h2 className="card-title text text-[#0F4C81]"> Graphic Design</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
