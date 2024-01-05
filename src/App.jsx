@@ -5,6 +5,7 @@ import Blogs from './components/Blogs/Blogs'
 import Instructor from './components/Instractor/Instructor'
 import Navbar from './components/Navbar/Navbar'
 import PopularCourse from './components/PopularCourse/PopularCourse'
+import Reviews from './components/Reviews/Reviews'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <PopularCourse></PopularCourse>
       <Instructor></Instructor>
       <Blogs></Blogs>
+      <Reviews></Reviews>
     </>
   )
 }
