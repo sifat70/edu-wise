@@ -1,5 +1,6 @@
 
 import './App.css'
+import About from './components/About/About'
 import Banner from './components/Banner/Banner'
 import Blogs from './components/Blogs/Blogs'
 import ContactUs from './components/ContactUS/ContactUs'
@@ -17,6 +18,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <PopularCourse></PopularCourse>
+      <About></About>
       <Instructor></Instructor>
       <Blogs></Blogs>
       <Reviews></Reviews>

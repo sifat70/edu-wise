@@ -5,7 +5,7 @@ const Navbar = () => {
         <li className="text-[#0F4C81] font-bold"><a>Home</a></li>
         <li className="text-[#0F4C81] font-bold"><a>Courses</a></li>
         <li className="text-[#0F4C81] font-bold"><a>Tutorials</a></li>
-        <li className="text-[#0F4C81] font-bold"><a>Mentors</a></li>
+        <li className="text-[#0F4C81] font-bold"><a href="#mentors">Mentors</a></li>
     </>
     return (
         <div className="navbar bg-base-100">

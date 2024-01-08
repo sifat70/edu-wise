@@ -12,7 +12,7 @@ const PopularCourse = () => {
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
                     <div className="mt-5">
                         <div className="card card-compact bg-base-100 shadow-xl">
-                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure></div>
+                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl h-[200px] w-full" src="https://i.ibb.co/zF1kSRX/29d2ae53af3c8fcb8ea9c3a708f0cc96.jpg" alt="Shoes" /></figure></div>
                             <div className="card-body flex items-center">
                                 <h2 className="card-title text text-[#0F4C81]"> Graphic Design</h2>
                             </div>
@@ -20,7 +20,7 @@ const PopularCourse = () => {
                     </div>
                     <div className="mt-5">
                         <div className="card card-compact bg-base-100 shadow-xl">
-                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure></div>
+                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl h-[200px] w-full" src="https://i.ibb.co/T8s2CZn/f4b6b93284b508de878519d0dbb29430.jpg" alt="Shoes" /></figure></div>
                             <div className="card-body flex items-center">
                                 <h2 className="card-title text text-[#0F4C81]"> Graphic Design</h2>
                             </div>
@@ -28,7 +28,7 @@ const PopularCourse = () => {
                     </div>
                     <div className="mt-5">
                         <div className="card card-compact bg-base-100 shadow-xl">
-                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure></div>
+                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl h-[200px] w-full" src="https://i.ibb.co/d2X3j0Y/2aa0ea56cb5e7d4f4591cc1836c4636a.jpg" alt="Shoes" /></figure></div>
                             <div className="card-body flex items-center">
                                 <h2 className="card-title text text-[#0F4C81]"> Graphic Design</h2>
                             </div>
@@ -36,7 +36,7 @@ const PopularCourse = () => {
                     </div>
                     <div className="mt-5">
                         <div className="card card-compact bg-base-100 shadow-xl">
-                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure></div>
+                            <div className="w-[95%] mx-auto"><figure><img className="rounded-xl h-[200px] w-full" src="https://i.ibb.co/cTFFggJ/78549d9476c6e51555208b757e245b56.jpg" alt="Shoes" /></figure></div>
                             <div className="card-body flex items-center">
                                 <h2 className="card-title text text-[#0F4C81]"> Graphic Design</h2>
                             </div>
