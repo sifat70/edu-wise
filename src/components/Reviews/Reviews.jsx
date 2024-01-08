@@ -7,7 +7,7 @@ const Reviews = () => {
                 <h1 className="text-[#0F4C81] text-center font-bold text-2xl">Students Reviews</h1>
             </div>
             <div className="grid mt-10 grid-cols-1 gap-3 lg:grid-cols-3 md:grid-cols-2">
-                <div className="card bg-base-100 shadow-xl">
+                <div className="hover:origin-top hover:-translate-y-1 duration-300 hover:scale-105 hover:bg-base-300 card bg-base-100 shadow-xl">
                     <div className="card-body">
                         <div className="flex items-center">
                             <div className="w-full">
@@ -36,7 +36,7 @@ const Reviews = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="hover:origin-top hover:-translate-y-1 duration-300 hover:scale-105 hover:bg-base-300 card bg-base-100 shadow-xl">
                     <div className="card-body">
                         <div className="flex items-center">
                             <div className="w-full">
@@ -65,7 +65,7 @@ const Reviews = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="hover:origin-top hover:-translate-y-1 duration-300 hover:scale-105 hover:bg-base-300 card bg-base-100 shadow-xl">
                     <div className="card-body">
                         <div className="flex items-center">
                             <div className="w-full">

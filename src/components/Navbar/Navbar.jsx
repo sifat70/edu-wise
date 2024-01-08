@@ -2,13 +2,13 @@
 
 const Navbar = () => {
     const NavLinks = <>
-        <li className="text-[#0F4C81] font-bold"><a>Home</a></li>
-        <li className="text-[#0F4C81] font-bold"><a>Courses</a></li>
-        <li className="text-[#0F4C81] font-bold"><a>Tutorials</a></li>
+        <li className="text-[#0F4C81] font-bold"><a href="#navbar">Home</a></li>
+        <li className="text-[#0F4C81] font-bold"><a href="#courses">Courses</a></li>
+        <li className="text-[#0F4C81] font-bold"><a href="#tutorials">Tutorials</a></li>
         <li className="text-[#0F4C81] font-bold"><a href="#mentors">Mentors</a></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div id="navbar" className="navbar bg-base-100 mt-7">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -18,7 +18,7 @@ const Navbar = () => {
                         {NavLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl text-[#0F4C81] font-extrabold">Edu<span className="text-[#FFA03A] font-extrabold ml-0">Wise</span></a>
+                <a className="text-3xl text-[#0F4C81] font-extrabold">Edu<span className="text-[#FFA03A] font-extrabold ml-0">Wise</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

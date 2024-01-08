@@ -15,16 +15,18 @@ function App() {
 
   return (
     <>
-      
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <PopularCourse></PopularCourse>
-      <About></About>
-      <Instructor></Instructor>
-      <SuitableCourse></SuitableCourse>
-      <Blogs></Blogs>
-      <Reviews></Reviews>
-      <ContactUs></ContactUs>
+
+      <div className='w-[95%] mx-auto'>
+        <Navbar></Navbar>
+        <Banner></Banner>
+        <PopularCourse></PopularCourse>
+        <About></About>
+        <Instructor></Instructor>
+        <SuitableCourse></SuitableCourse>
+        <Blogs></Blogs>
+        <Reviews></Reviews>
+        <ContactUs></ContactUs>
+      </div>
       <Footer></Footer>
     </>
   )

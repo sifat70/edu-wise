@@ -2,12 +2,12 @@
 
 const SuitableCourse = () => {
     return (
-        <div className="mt-10">
+        <div id="tutorials" className="mt-10">
             <div>
                 <h1 className="text-[#0F4C81] text-center font-bold text-2xl">Choose Your Suitable Course</h1>
             </div>
             <div className="mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card hover:origin-top hover:-translate-y-1 duration-300 hover:scale-105 hover:bg-base-300 bg-base-100 shadow-xl">
                     <div className="card-body">
                         <h2 className=" bg-[#0F4C81] text-white text-xl font-bold rounded-t-[15px] rounded-b-[30px] p-3 text-center">Basic Learning</h2>
                         <button className="btn btn-outline text-2xl mt-5 text-[#0F4C81] font-extrabold">$49.99</button>
@@ -24,7 +24,7 @@ const SuitableCourse = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card hover:origin-top hover:-translate-y-1 duration-300 hover:scale-105 hover:bg-base-300 bg-base-100 shadow-xl">
                     <div className="card-body">
                         <h2 className=" bg-[#0F4C81] text-white text-xl font-bold rounded-t-[15px] rounded-b-[30px] p-3 text-center">Professional Development</h2>
                         <button className="btn btn-outline text-2xl mt-5 text-[#0F4C81] font-extrabold">$99.99</button>
@@ -41,7 +41,7 @@ const SuitableCourse = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card hover:origin-top hover:-translate-y-1 duration-300 hover:scale-105 hover:bg-base-300 bg-base-100 shadow-xl">
                     <div className="card-body">
                         <h2 className=" bg-[#0F4C81] text-white text-xl font-bold rounded-t-[15px] rounded-b-[30px] p-3 text-center">Master Class</h2>
                         <button className="btn btn-outline text-2xl mt-5 text-[#0F4C81] font-extrabold">$49.99</button>
