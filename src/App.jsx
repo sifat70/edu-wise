@@ -9,6 +9,7 @@ import Instructor from './components/Instractor/Instructor'
 import Navbar from './components/Navbar/Navbar'
 import PopularCourse from './components/PopularCourse/PopularCourse'
 import Reviews from './components/Reviews/Reviews'
+import SuitableCourse from './components/SuitableCourse/SuitableCourse'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <PopularCourse></PopularCourse>
       <About></About>
       <Instructor></Instructor>
+      <SuitableCourse></SuitableCourse>
       <Blogs></Blogs>
       <Reviews></Reviews>
       <ContactUs></ContactUs>
